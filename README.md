@@ -2,11 +2,11 @@
 
 Northeastern University CSYE6220 Final Project.
 
-##Summary:  
+## Summary:  
 
 This application can be used in a Hotel daily operation and maintenance scene. It has 3 roles: user, waiter and admin. Users can book room, check out, view order and view bill. Waiter can manage the user orders and hotel room, then send bill to customers. Admin can manage the waiter statement.
 
-##Functionality Performed:   
+## Functionality Performed:   
 
 In this application, it has 7 basic functions.  
 1.book rooms  
