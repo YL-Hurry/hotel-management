@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<bean name="userdao" class="com.yue.dao.UserDAO" />
+	<bean name="user" class="com.yue.pojo.User" />	
+	<bean name="userorder" class="com.yue.pojo.UserOrder" />
+	<bean name="waiterdao" class="com.yue.dao.WaiterDAO" />
+	<bean name="waiter" class="com.yue.pojo.Waiter" />
+	<bean name="bill" class="com.yue.pojo.Bill" />
+	<bean name="admin" class="com.yue.pojo.Admin" />
+	<bean name="admindao" class="com.yue.dao.AdminDAO" />
+	<bean name="loginvalidation" class="com.yue.validation.LoginValidation" />
+	<bean name="datevalidation" class="com.yue.validation.DateValidation" />	
+</beans>
